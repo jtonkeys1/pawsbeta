@@ -437,12 +437,14 @@ section {
   font-size: 48px;
   font-weight: 700;
   color: #012970;
+  text-align: center
 }
 
 .hero h2 {
   color: #444444;
   margin: 15px 0 0 0;
   font-size: 26px;
+  text-align: center
 }
 
 .hero .btn-get-started {
@@ -1277,6 +1279,7 @@ section {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
+  text-align: center
 }
 
 .portfolio-details .portfolio-description p {
