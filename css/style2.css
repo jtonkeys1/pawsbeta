@@ -443,7 +443,7 @@ time {
 }
 
 .header.header-scrolled {
-  background: #fff;
+  background: transparent;
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
@@ -1216,6 +1216,7 @@ padding:0;
   align-items: center;
   padding: 30px;
   width: 100%;
+  margin: 0 auto;
   background: transparent;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
 }
@@ -1223,20 +1224,25 @@ padding:0;
 .counts .count-box i {
   font-size: 42px;
   line-height: 0;
-  margin-right: 20px;
+  margin-right: 30px;
+  margin-left: 40px;
+  align-items: center;
   color: #4154f1;
 }
 
 .counts .count-box span {
   font-size: 36px;
   display: block;
+  margin: auto;
   font-weight: 600;
+  align-items: center;
   color: #4154f1;
 }
 
 .counts .count-box p {
   padding: 0;
-  margin: 0;
+  margin: auto;
+  align-items: center;
   font-family: "Nunito", sans-serif;
   font-size: 14px;
 }
@@ -1245,7 +1251,8 @@ padding:0;
   background: transparent;
   color:#4154f1;
   padding: 0;
-  margin: 0;
+  align-items: center;
+  margin: auto;
 }
 
 .counts .count-box dark-mode {
