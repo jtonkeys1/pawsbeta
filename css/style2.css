@@ -1595,27 +1595,35 @@ summary {
   margin-bottom: 1rem;
   outline: none;
   border-radius: 1.25rem;
-  text-align: left;
+  text-align: center;
   cursor: pointer;
   position: relative;
 }
 details > summary::after {
   position: absolute;
-  padding: 2rem;
-  margin-left: 2rem;
+  padding: 20rem;
+  margin: 20rem;
   right: 20px;
 }
 details[open] > summary::after {
   position: absolute;
   text-align: center;
-  margin-left: 2rem;
-  padding: 3rem;
+  margin: 20rem;
+  padding: 20rem;
   right: 20px;
 }
 details > summary::-webkit-details-marker {
   display: none;
-  padding: 2rem;
-  margin-left: 2rem;
+  padding: 20rem;
+  margin: 20rem;
+}
+
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+@keyframes sweep {
+  0%    {opacity: 0; margin-top: -10px}
+  100%  {opacity: 1; margin-top: 0px}
 }
 
 /*--------------------------------------------------------------
